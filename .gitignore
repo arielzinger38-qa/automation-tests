@@ -15,10 +15,8 @@ api-tests/.pytest_cache/
 api-tests/report.html
 api-tests/assets/
 
-# Environment
-.env
 
-# OS
+# OSs
 Thumbs.db
 Desktop.ini
 .DS_Store
