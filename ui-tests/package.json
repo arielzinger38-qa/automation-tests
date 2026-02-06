@@ -1,0 +1,15 @@
+{
+  "name": "saucedemo-ui-tests",
+  "version": "1.0.0",
+  "description": "Playwright UI automation tests for SauceDemo",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:smoke": "playwright test --grep @smoke",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "dotenv": "^16.4.0"
+  }
+}
