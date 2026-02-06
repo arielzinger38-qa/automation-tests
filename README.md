@@ -34,6 +34,9 @@ pip install -r requirements.txt
 ```bash
 cd ui-tests
 
+# Run all tests (Headed)
+npx playwright test --headed
+
 # Run all tests (headless)
 npx playwright test
 
